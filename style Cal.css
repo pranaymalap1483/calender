@@ -1,0 +1,68 @@
+*{ 
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+
+body{ 
+    width: auto;
+    height: auto;
+   border: 2px solid black;
+   margin: 20px;
+}
+
+.container{  
+    margin: 5px;
+    padding: 5px;
+}
+
+.month{ 
+    margin-left: 40px;
+    padding: 5px;
+    font-weight: bold;font-size: 40px;
+    font-family: sans-serif;
+   
+} 
+
+ .days{ 
+     background-color: rgb(243, 235, 235);
+     padding: 10px;
+
+
+}
+
+ul{ 
+    display: grid;
+    margin: 10px;
+    padding: 10px;
+    font-size:20px;
+    font-family: sans-serif;
+    list-style:none;
+   grid-template-columns: repeat(7,1fr);
+}
+
+.date{ 
+    margin: 10px;
+    padding: 5px;
+  grid-column-start:3 auto;
+  
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
